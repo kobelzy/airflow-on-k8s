@@ -1,4 +1,5 @@
 # airflow-on-k8s
+[![Airflow](https://github.com/apache/incubator-airflow)]
 在k8s集群上构建airflow
 官方给的Airflow构建于K8s集群不太详细，并且有一些坑，特此说明
 
