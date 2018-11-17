@@ -24,5 +24,6 @@
 官方给定的是其中的airflow-tags和test-volume两个pv使用ReadWriteOnce但是pvc使用ReadWriteMany导致无法被Bound，我这里统一修改为ReadWriteMany就ok了。
 
 另外打好的镜像名为airflow，需要修改为docker.io/airflow
-
+```shell
   docker tag airflow docker.io/airflow
+  '''
